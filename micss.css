@@ -57,6 +57,19 @@ left: 60;
 text-align: right;
 }
 
+.menu {
+	width :1630px;
+	height :50px;
+	background :lightpink;
+	font-size :30px;
+	display: flex;
+	margin-bottom: 30px;
+	align-items: center;
+	justify-content: flex-end;
+}
+a{
+	padding-left: 20px;
+}
 .titulo {
 color : black;
 font-size :50px;
