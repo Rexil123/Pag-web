@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>ejemplo de div</title>
+  <link rel="stylesheet" type="text/css" href="micss.css">
+</head>
+<body>
+<div class="titulo">
+<titulo> COMIDA RECOMENDADA  </titulo>
+</div>
+<p class="parrafo">Página 1 &nbsp;
+&nbsp; &nbsp; Página 3
+</p>
+
+<img src="https://m.media-amazon.com/images/I/812en2V9yrL._AC_SX679_.jpg" class="img5"> 
+
+<body background="https://imgs.search.brave.com/t572J6ehUPFvLfhBMHF8Yfn7cxZqu42yrHBPC5y9ET8/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/eHRyYWZvbmRvcy5j/b20vd2FsbHBhcGVy/cy9udWJlcy1hYnN0/cmFjdGFzLWlsdW1p/bmFkYXMtNDcwOS5q/cGc" style="background-repeat: no-repeat; background-position: center center; background-size: cover">
+
+<p class="parrafo5"> ADVANCE Veterinary Diets Articular Care Adult - Pienso Para Perros Adultos Con Problemas Articulares - 12 kg
+<br>Rica en proteínas
+<p class="fecha2"> Pedro Gallardo Buiza, Fecha: 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+$( document ).ready(function() {
+
+    var now = new Date();
+
+    var day = ("0" + now.getDate()).slice(-2);
+    var month = ("0" + (now.getMonth() + 1)).slice(-2);
+
+    var today = now.getFullYear()+"-"+(month)+"-"+(day) ;
+    $("#fecha").val(today);
+});
+</script>
+
+</p>
+</body>
+</html>

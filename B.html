@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>ejemplo de div</title>
+  <link rel="stylesheet" type="text/css" href="micss.css">
+</head>
+<body>
+<div class="titulo">
+<titulo> TIENDAS DE ANIMALES </titulo>
+</div>
+<p class="parrafo">Página 1 &nbsp;
+&nbsp; &nbsp; Página 2
+</p>
+
+<body background="https://imgs.search.brave.com/t572J6ehUPFvLfhBMHF8Yfn7cxZqu42yrHBPC5y9ET8/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/eHRyYWZvbmRvcy5j/b20vd2FsbHBhcGVy/cy9udWJlcy1hYnN0/cmFjdGFzLWlsdW1p/bmFkYXMtNDcwOS5q/cGc" style="background-repeat: no-repeat; background-position: center center; background-size: cover">
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1RLmWhW_purEle57PiHaIsQYOvts&ehbc=2E312F" width="640" height="480"></iframe>
+
+<p class="par">
+
+<br>
+DATOS PERSONALES
+<br>
+<br>
+
+Nombre<input type="text" name=1>
+
+<br>
+<br>
+
+Dirección<input type="text" name=2>
+
+<br>
+<br>
+
+Teléfono<input type="text" name=3>
+
+</p>
+
+<p class="fecha3"> Pedro Gallardo Buiza, Fecha: 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+$( document ).ready(function() {
+
+    var now = new Date();
+
+    var day = ("0" + now.getDate()).slice(-2);
+    var month = ("0" + (now.getMonth() + 1)).slice(-2);
+
+    var today = now.getFullYear()+"-"+(month)+"-"+(day) ;
+    $("#fecha").val(today);
+});
+</script>
+</body>
+</html>
